@@ -1,0 +1,22 @@
+<h3>Create Portfolio</h3>
+                <form class="form" method="POST" action="/users/gotoprojects">
+                    <div class="form-group">
+                        <label for="InputTitle">Title</label>
+                        <input name = "title" type="text" class="form-control" id="InputTitle" placeholder="Title">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputLink">Summary</label>
+                        <input name = "summary" type="text" class="form-control" id="InputLink" placeholder="Summary">
+                    </div>
+                    <div class="form-group">
+                        <input name = "username" type="text" value="{{user.username}}" class="form-control" id="Inputuser" placeholder="user" style="display:none;">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+<h3>have a portfolio?</h3>
+<form method="post" action="/users/gotoprojects1">
+                    
+                     <div class="form-group">
+                     <button type="submit" class="btn btn-default">yes</button>
+                     </div>
+                </form>
